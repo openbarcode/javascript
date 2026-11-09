@@ -1,0 +1,35 @@
+{
+  "name": "openbarcode",
+  "version": "2.0.0",
+  "description": "Dependency-free barcode generation for UPC-A, EAN-13 and Code 39.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    "./linear": "./src/linear/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "barcode",
+    "upc",
+    "upc-a",
+    "ean",
+    "ean-13",
+    "code39",
+    "code-39",
+    "gs1"
+  ],
+  "homepage": "https://openbarcode.dev",
+  "repository": "https://github.com/openbarcode/javascript"
+}
