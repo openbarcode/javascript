@@ -17,7 +17,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { EAN, UPC } from 'openbarcode/linear';
+import { EAN, UPC } from '@openbarcode/javascript/linear';
 import { encodeEan13 } from '../src/linear/gs1.js';
 
 // Cross-language vector: 12 data digits, check digit 1 -> 4006381333931, 95 modules.

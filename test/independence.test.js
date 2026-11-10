@@ -20,7 +20,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { Code39, EAN, UPC } from 'openbarcode/linear';
+import { Code39, EAN, UPC } from '@openbarcode/javascript/linear';
 
 test('UPC instances do not share module arrays', () => {
   const first = new UPC('03600029145');

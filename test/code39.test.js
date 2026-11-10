@@ -17,7 +17,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { Code39 } from 'openbarcode/linear';
+import { Code39 } from '@openbarcode/javascript/linear';
 
 // Cross-language vectors. Each symbol is 12 modules. A single narrow (0) gap separates adjacent
 // symbols, including the start and stop characters, with no gap before the start or after the stop.

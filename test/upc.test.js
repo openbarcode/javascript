@@ -17,7 +17,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { UPC } from 'openbarcode/linear';
+import { UPC } from '@openbarcode/javascript/linear';
 
 // Cross-language vector: 11 data digits, check digit 2 -> 036000291452, 95 modules.
 const UPC_VECTOR_BITS =
