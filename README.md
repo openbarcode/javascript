@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/open-barcode-logo-dark.svg">
-    <img src="assets/branding/open-barcode-logo.svg" alt="Open Barcode by Floms" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/openbarcode/.github/main/profile/assets/Open-Barcode-Logo-dark.svg">
+    <img src="https://raw.githubusercontent.com/openbarcode/.github/main/profile/assets/Open-Barcode-Logo.svg" alt="Open Barcode by Floms" width="420">
   </picture>
 </p>
 

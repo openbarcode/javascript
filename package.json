@@ -1,6 +1,6 @@
 {
   "name": "@openbarcode/javascript",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Dependency-free barcode generation for UPC-A, EAN-13 and Code 39.",
   "license": "Apache-2.0",
   "type": "module",
@@ -31,9 +31,11 @@
     "gs1"
   ],
   "homepage": "https://openbarcode.dev",
-  "repository": "https://github.com/openbarcode/javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openbarcode/javascript.git"
+  },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
